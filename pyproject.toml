@@ -1,0 +1,12 @@
+[project]
+name = "nyc-taxi-predictions-2025-3"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "mlflow>=3.5.1",
+    "optuna>=4.5.0",
+    "prefect>=3.4.25",
+    "xgboost>=3.1.1",
+]
