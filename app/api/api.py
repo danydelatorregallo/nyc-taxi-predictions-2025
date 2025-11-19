@@ -15,6 +15,10 @@ EXPERIMENT_NAME = "/Users/danydelatorregallo@gmail.com/nyc-taxi-experiment-prefe
 
 run_ = mlflow.search_runs(order_by=['metrics.rmse ASC'],
                           output_format="list",
+
+
+
+                          
                           experiment_names=[EXPERIMENT_NAME]
                           )[0]
 
